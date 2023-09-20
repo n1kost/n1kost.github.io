@@ -1,0 +1,72 @@
+/* Стили для шапки */
+
+body
+{
+  background-color: black; /* Или используйте цвет фона */
+  background-size: cover; /* Заполнить фон всем доступным пространством */
+  background-repeat: no-repeat; /* Не повторять фон */
+  background-attachment: fixed; /* Закрепить фон, чтобы он не прокручивался */
+}
+
+.full-width-header {
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  display: flex; /* Используем flexbox для размещения элементов в шапке */
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Стили для логотипа */
+.logo img {
+  max-width: 100px;
+}
+
+/* Стили для названия сайта */
+.site-title h1 {
+  margin: 0;
+  font-size: 50px;
+  margin-right: 20px; /* Добавляем отступ справа, чтобы название было правее логотипа */
+  color: midnightblue;
+  background: #cccccc;
+}
+
+/* Стили для кнопки */
+.header-button {
+  margin-left: 500px; /* Помещаем кнопку вправо */
+}
+
+.button {
+  padding: 20px 20px;
+  background-color: #0074d9;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Стили для кнопки при наведении */
+.button:hover {
+  background-color: #0056b3;
+}
+/* Стили для всех ссылок на странице */
+a {
+  color: #fff; /* Устанавливаем цвет текста ссылок в белый (#fff) */
+  text-decoration: none; /* Убираем подчеркивание для ссылок */
+}
+
+/* Стили для ссылок при наведении курсора */
+a:hover {
+  color: #ff0000; /* Устанавливаем цвет текста ссылок в красный (#ff0000) при наведении курсора (можете выбрать другой цвет) */
+}
+
+/* Стили для заголовка "Список гиперссылок" */
+h1 {
+  color: #fff; /* Устанавливаем белый цвет текста заголовка */
+}
+
+form{
+  background: #b3d4fc;
+}
