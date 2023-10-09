@@ -30,7 +30,7 @@ body {
 }
 
 .button {
-  padding: 20px 20px;
+  padding: 10px 20px;
   background-color: #0074d9;
   color: #fff;
   text-decoration: none;
@@ -38,6 +38,7 @@ body {
   border-radius: 5px;
   cursor: pointer;
 }
+
 
 .button:hover {
   background-color: #0056b3;
@@ -204,3 +205,13 @@ form textarea:focus {
   max-width: 20%;
   height: auto;
 }
+
+
+
+@media screen and (max-width: 768px) {
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+}
+
