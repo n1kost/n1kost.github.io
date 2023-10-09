@@ -112,17 +112,16 @@ form {
 
 .center-text {
   text-align: center;
-  margin-top: 20px; /* Добавьте отступ сверху по вашему усмотрению */
+  margin-top: 20px;
 }
 
 
-/* Стили для заголовка формы */
 form h1 {
   font-size: 24px;
   text-align: left;
 }
 
-/* Стили для полей ввода */
+
 form label {
   display: block;
   margin-bottom: 5px;
@@ -201,23 +200,7 @@ form textarea:focus {
 }
 
 
-@media screen and (max-width: 1000px) {
-  .full-width-header {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .site-title h1 {
-    font-size: 36px;
-    margin-top: 20px;
-  }
-
-  .header-button {
-    margin: 20px 0;
-  }
-
-  .button {
-    padding: 15px 30px;
-    font-size: 18px;
-  }
+.responsive-image {
+  max-width: 20%;
+  height: auto;
 }
