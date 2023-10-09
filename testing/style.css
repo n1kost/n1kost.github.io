@@ -1,0 +1,123 @@
+/* Основные стили */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+/* Стили для заголовка */
+.full-width-header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.site-title h1 {
+  font-size: 24px;
+  margin: 10px 0;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+.header-button {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+/* Основные стили для списка ссылок */
+main {
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #007BFF;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Стили для таблицы */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+}
+
+/* Стили для футера */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Медиа-запрос для мобильных устройств */
+@media screen and (max-width: 768px) {
+  .full-width-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .site-title h1 {
+    font-size: 36px;
+    margin-top: 20px;
+  }
+
+  .header-button {
+    margin: 20px 0;
+  }
+
+  .button {
+    padding: 15px 30px;
+    font-size: 18px;
+  }
+}
